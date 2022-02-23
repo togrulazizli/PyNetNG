@@ -1,0 +1,14 @@
+process: 10
+router-id: 10.10.10.10
+ref_bw: 10000
+ospf_intf:
+  - name: Fa0/1
+    ip: 10.10.10.1
+    area: 0
+    passive: True
+  - name: Vlan10
+    ip: 10.10.20.1
+    area: 5
+    passive: False
+  
+  
